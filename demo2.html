@@ -1,0 +1,14 @@
+<script>
+    var num=123;
+    var last = parseInt(num%10);
+    document.write("<br>last digit : "+last);
+    
+    var middle = parseInt((num/10)%10);
+    document.write("<br>middle digit : "+middle);
+
+    var first = parseInt(num/100);
+    document.write("<br>first digit : "+first);
+
+    var rev = last*100+middle*10+first*1;
+    document.write("<br>Reverse : "+rev);
+</script>
